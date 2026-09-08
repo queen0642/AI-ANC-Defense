@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+anc-env/
+venv/
+env/
+.venv/
+
+# Audio / datasets
+data/
+*.wav
+*.mp3
+*.flac
+
+# Generated outputs
+results/
+outputs/
+
+# AI models / checkpoints
+models/
+*.pth
+*.pt
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
