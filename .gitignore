@@ -1,0 +1,9 @@
+data/clean/
+data/noise_military/
+data/noise_urban/
+data/processed/
+models/*.pth
+venv/
+__pycache__/
+*.pyc
+.streamlit/

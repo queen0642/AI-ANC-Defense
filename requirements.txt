@@ -1,0 +1,17 @@
+torch>=2.0
+torchaudio>=2.0
+denoiser==0.1.5
+numpy
+scipy
+librosa
+soundfile
+pystoi
+onnx
+onnxruntime
+streamlit
+tqdm
+pandas
+
+# Optional: only needed for PESQ score reporting in scripts/evaluate.py.
+# Install separately on systems with a working C/C++ toolchain.
+pesq; platform_system != "Windows"
